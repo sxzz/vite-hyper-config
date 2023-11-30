@@ -2,10 +2,40 @@
 
 [![Unit Test](https://github.com/sxzz/vite-hyper-config/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/vite-hyper-config/actions/workflows/unit-test.yml)
 
+Use Vite to run Vite's own config. In other words, transform and run `vite.config.ts` with Vite.
+
 ## Install
 
 ```bash
 npm i vite-hyper-config
+```
+
+## Usage
+
+```ts
+import { startVite } from 'vite-hyper-config'
+import { DevPlugin } from './plugin'
+
+startVite(
+  {
+    // (Optional)
+    // Vite config for transforming client code (undering `src`)
+    // Will be merged with result of `vite.config.ts` if it exists
+  },
+  {
+    // (Optional)
+    // Vite config for transforming `vite.config.ts` itself
+    plugins: [DevPlugin()],
+  },
+  {
+    // (Optional)
+    // Runner options, see https://github.com/vitest-dev/vitest/blob/main/packages/vite-node/src/types.ts#L92-L111
+    deps: {
+      // Also transform some dependency
+      inline: ['@vitejs/plugin-vue'],
+    },
+  },
+)
 ```
 
 ## Sponsors
