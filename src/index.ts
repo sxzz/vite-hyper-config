@@ -89,6 +89,7 @@ export async function startVite(
     prefix: '[vite-node]',
     allowClearScreen: runnerConfig.clearScreen ?? true,
   })
+  logger.info('Starting server...', { timestamp: true })
   const { server: viteNodeServer, runner } = await createRunner(
     logger,
     runnerConfig,
