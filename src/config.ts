@@ -1,3 +1,4 @@
+import process from 'node:process'
 import { existsSync } from 'node:fs'
 import path from 'node:path'
 import type { InlineConfig } from 'vite'
