@@ -1,7 +1,7 @@
 {
   "name": "vite-hyper-config",
   "version": "0.2.1",
-  "packageManager": "pnpm@9.0.5",
+  "packageManager": "pnpm@9.5.0",
   "description": "Use Vite to run Vite's own config.",
   "type": "module",
   "license": "MIT",
