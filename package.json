@@ -45,20 +45,20 @@
   "dependencies": {
     "cac": "^6.7.14",
     "picocolors": "^1.0.1",
-    "vite-node": "^2.0.3"
+    "vite-node": "^2.0.4"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^3.14.0",
+    "@sxzz/eslint-config": "^3.16.0",
     "@sxzz/prettier-config": "^2.0.2",
-    "@types/node": "^20.14.11",
+    "@types/node": "^20.14.13",
     "bumpp": "^9.4.1",
-    "eslint": "^9.7.0",
+    "eslint": "^9.8.0",
     "fast-glob": "^3.3.2",
     "prettier": "^3.3.3",
-    "tsup": "^8.2.1",
+    "tsup": "^8.2.3",
     "tsx": "^4.16.2",
-    "typescript": "^5.5.3",
-    "vite": "^5.3.4"
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5"
   },
   "engines": {
     "node": ">=18.0.0"
