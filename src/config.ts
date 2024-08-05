@@ -1,6 +1,6 @@
-import process from 'node:process'
 import { existsSync } from 'node:fs'
 import path from 'node:path'
+import process from 'node:process'
 import type { InlineConfig } from 'vite'
 
 export const DEFAULT_CONFIG_FILES = [

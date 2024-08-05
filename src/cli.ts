@@ -2,13 +2,13 @@ import process from 'node:process'
 import { cac } from 'cac'
 import colors from 'picocolors'
 import {
-  type BuildOptions,
-  type LogLevel,
-  type ServerOptions,
   createLogger,
   mergeConfig,
   resolveConfig,
   version,
+  type BuildOptions,
+  type LogLevel,
+  type ServerOptions,
 } from 'vite'
 import { context } from '.'
 

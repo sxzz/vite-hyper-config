@@ -1,17 +1,17 @@
 import {
+  createLogger,
+  createServer,
+  mergeConfig,
   type InlineConfig,
   type Logger,
   type UserConfig,
   type ViteDevServer,
-  createLogger,
-  createServer,
-  mergeConfig,
 } from 'vite'
-import { ViteNodeServer } from 'vite-node/server'
 import { ViteNodeRunner } from 'vite-node/client'
-import { installSourcemapsSupport } from 'vite-node/source-map'
 import { reload } from 'vite-node/hmr'
-import { type GlobalCLIOptions, cli } from './cli'
+import { ViteNodeServer } from 'vite-node/server'
+import { installSourcemapsSupport } from 'vite-node/source-map'
+import { cli, type GlobalCLIOptions } from './cli'
 import { findConfigFile } from './config'
 import type { ViteNodeServerOptions } from 'vite-node'
 
