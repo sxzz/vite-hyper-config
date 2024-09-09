@@ -36,7 +36,9 @@ export async function createRunner(
 ) {
   const inlineConfig: InlineConfig = {
     configFile: false,
-    optimizeDeps: { disabled: true },
+    optimizeDeps: {
+      noDiscovery: true,
+    },
     customLogger: logger,
     plugins: [
       {
