@@ -1,6 +1,6 @@
 {
   "name": "vite-hyper-config",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "packageManager": "pnpm@9.15.3",
   "description": "Use Vite to run Vite's own config.",
   "type": "module",
