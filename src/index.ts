@@ -33,7 +33,7 @@ export async function createRunner(
   logger: Logger,
   config: InlineConfig = {},
   viteNodeServerOptions: ViteNodeServerOptions = {},
-) {
+): Promise<{ server: ViteDevServer; runner: Runner }> {
   const inlineConfig: InlineConfig = {
     configFile: false,
     optimizeDeps: {
@@ -77,7 +77,7 @@ export async function startVite(
   viteConfig: InlineConfig = {},
   runnerConfig: InlineConfig = {},
   viteNodeServerOptions: ViteNodeServerOptions = {},
-) {
+): Promise<void> {
   const args = cli.parse(undefined, { run: false })
   const configFile = findConfigFile(
     (args.options as GlobalCLIOptions).config || viteConfig.configFile,

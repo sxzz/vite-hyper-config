@@ -3,7 +3,7 @@ import path from 'node:path'
 import process from 'node:process'
 import type { InlineConfig } from 'vite'
 
-export const DEFAULT_CONFIG_FILES = [
+export const DEFAULT_CONFIG_FILES: string[] = [
   'vite.config.js',
   'vite.config.mjs',
   'vite.config.ts',
@@ -14,8 +14,8 @@ export const DEFAULT_CONFIG_FILES = [
 
 export function findConfigFile(
   configFile: InlineConfig['configFile'],
-  configRoot = process.cwd(),
-) {
+  configRoot: string = process.cwd(),
+): string | null {
   let resolvedPath: string | undefined
   if (configFile) {
     // explicit config path is always resolved from cwd

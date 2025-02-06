@@ -1,5 +1,5 @@
 import process from 'node:process'
-import { cac } from 'cac'
+import { CAC, cac } from 'cac'
 import colors from 'picocolors'
 import {
   createLogger,
@@ -12,7 +12,7 @@ import {
 } from 'vite'
 import { context } from '.'
 
-export const cli = cac('vite')
+export const cli: CAC = cac('vite')
 
 // global options
 export interface GlobalCLIOptions {
