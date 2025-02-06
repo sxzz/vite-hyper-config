@@ -1,5 +1,5 @@
 import process from 'node:process'
-import { CAC, cac } from 'cac'
+import { cac, type CAC } from 'cac'
 import colors from 'picocolors'
 import {
   createLogger,
