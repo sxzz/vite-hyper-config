@@ -47,7 +47,7 @@
     "vite-node": "^3.0.8"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^5.3.0",
+    "@sxzz/eslint-config": "^6.0.2",
     "@sxzz/prettier-config": "^2.2.1",
     "@types/node": "^22.13.10",
     "bumpp": "^10.1.0",
