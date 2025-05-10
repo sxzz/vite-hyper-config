@@ -48,4 +48,4 @@ startVite(
 
 ## License
 
-[MIT](./LICENSE) License © 2023 [三咲智子 Kevin Deng](https://github.com/sxzz)
+[MIT](./LICENSE) License © 2023-PRESENT [三咲智子 Kevin Deng](https://github.com/sxzz)
