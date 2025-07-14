@@ -1,7 +1,7 @@
 {
   "name": "vite-hyper-config",
   "version": "0.7.0",
-  "packageManager": "pnpm@10.12.4",
+  "packageManager": "pnpm@10.13.1",
   "description": "Use Vite to run Vite's own config.",
   "type": "module",
   "license": "MIT",
@@ -47,17 +47,17 @@
     "vite-node": "^3.2.4"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.0.4",
+    "@sxzz/eslint-config": "^7.0.5",
     "@sxzz/prettier-config": "^2.2.3",
-    "@types/node": "^22.16.0",
+    "@types/node": "^22.16.3",
     "bumpp": "^10.2.0",
-    "eslint": "^9.30.1",
+    "eslint": "^9.31.0",
     "fast-glob": "^3.3.3",
     "prettier": "^3.6.2",
     "tsdown": "^0.12.9",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
-    "vite": "^7.0.2"
+    "vite": "^7.0.4"
   },
   "engines": {
     "node": ">=20.18.0"
