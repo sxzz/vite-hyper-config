@@ -13,7 +13,7 @@ startVite(
       {
         name: 'test',
         transform(code) {
-          return code.replace('not-expected', 'expected')
+          return code.replaceAll('not-expected', 'expected')
         },
       },
     ],

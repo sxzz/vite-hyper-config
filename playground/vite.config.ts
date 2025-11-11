@@ -1,4 +1,4 @@
-/* eslint-disable no-console */
+import assert from 'node:assert'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
@@ -6,7 +6,8 @@ export default defineConfig({
     {
       name: 'test',
       buildStart() {
-        console.log('not-expected')
+        const s: string = 'not-expected'
+        assert(s === 'expected')
       },
     },
   ],
