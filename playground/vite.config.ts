@@ -6,8 +6,9 @@ export default defineConfig({
     {
       name: 'test',
       buildStart() {
-        const s: string = 'not-expected'
-        assert(s === 'expected')
+        const s = 'not-expected'
+        assert.equal(s, 'expected')
+        console.info('success')
       },
     },
   ],
