@@ -50,14 +50,14 @@
     "vite-node": "^5.2.0"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.4.1",
+    "@sxzz/eslint-config": "^7.4.3",
     "@sxzz/prettier-config": "^2.2.6",
-    "@types/node": "^24.10.2",
+    "@types/node": "^24.10.4",
     "bumpp": "^10.3.2",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
     "fast-glob": "^3.3.3",
     "prettier": "^3.7.4",
-    "tsdown": "^0.17.2",
+    "tsdown": "^0.17.4",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vite": "^7.2.7"
