@@ -47,7 +47,7 @@
   "dependencies": {
     "cac": "^7.0.0",
     "picocolors": "^1.1.1",
-    "vite-node": "^5.3.0"
+    "vite-node": "^6.0.0"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^7.8.4",
