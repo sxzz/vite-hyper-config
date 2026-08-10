@@ -55,7 +55,7 @@
     "fast-glob": "^3.3.3",
     "prettier": "^3.8.3",
     "tsdown": "^0.22.0",
-    "tsdown-preset-sxzz": "^0.6.0",
+    "tsdown-preset-sxzz": "^0.7.0",
     "tsx": "^4.21.0",
     "typescript": "^6.0.3",
     "vite": "^8.0.10"
